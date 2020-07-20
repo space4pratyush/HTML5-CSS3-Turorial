@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 
 <!-- root element of html page -->
-<html>
+<!-- lang attribute -->
+<html lang="en">
     <!-- contains meta information about the page -->
     <head>
         <!-- shown in the browser title bar -->
@@ -13,16 +14,43 @@
     <body>
 
         <!-- HTML headings are defined with the <h1> to <h6> tags. -->
-        <h1>This is heading</h1>
+        <!-- The value of the title attribute will be displayed as a tooltip when you mouse over the element: -->
+        <h1 title="I am heading">This is heading</h1>
+
+        <!-- bigger heading example -->
+        <h1 style="font-size:60px;">Bigger heading example</h1>
 
         <!-- HTML paragraphs are defined with the <p> tag: -->
+        <!-- A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph. -->
         <p>This is a paragraph 1</p>
-        <p>This is a paragraph 2</p>
 
+        <!-- The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule. -->
+        <hr>
+        <p style="text-align: center;">This is a paragraph 2 with text align center style</p>
+
+        <!-- The HTML <br> element defines a line break. -->
+
+        <br>
         <!-- HTML links -->
-        <a href="https://github.com/space4pratyush/HTML5-CSS3-Turorial"> This is github link of this tutorial</a>
+        <!-- The style attribute is used to add styles to an element, such as color, font, size, and more. <tagname style="property:value;"> -->
+        <a href="https://github.com/space4pratyush/HTML5-CSS3-Turorial", style="color: blue;"> This is github link of this tutorial</a>
+
+        <br>
         
-        <!-- HTML images -->
-        <img src="/home/pratyush/Documents/HTML5-CSS3/HTML5-CSS3-Turorial/images/kali" alt="Godess" width="200" height="200"/>
+        <!-- HTML images, src, alt, width and height are its attribute-->
+        <img src="/home/pratyush/Documents/HTML5-CSS3/HTML5-CSS3-Turorial/images/kali"  alt="Godess" width="200" height="200"/>
+
+        <!-- The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks -->
+        <pre>
+            My Bonnie lies over the ocean.
+          
+            My Bonnie lies over the sea.
+          
+            My Bonnie lies over the ocean.
+          
+            Oh, bring back my Bonnie to me.
+        </pre>
+
+
     </body>
 </html>
